@@ -14,12 +14,12 @@ Just started, not usable right now.
 - Character/Account Search: http://i.imgur.com/lB7mZJ6.png
 - Character Edit: http://i.imgur.com/VbfUboL.png
 
-** Features**
+**Features**
 - Multi search different content from 1 search entry: characters, accounts, skills, items, zones, mobs, etc
 - Edit and manage anything in the database
 - View anything in the database
 
-** Todo **
+**Todo**
 - Full edit all entries
 - Backup/Import characters (dumps json extracts and can be uploaded to any other server)
-- Manage game files and configurations (based on version)
+- Manage DarkStar files and configurations (based on version)
