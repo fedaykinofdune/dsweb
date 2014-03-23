@@ -18,3 +18,8 @@ Just started, not usable right now.
 - Multi search different content from 1 search entry: characters, accounts, skills, items, zones, mobs, etc
 - Edit and manage anything in the database
 - View anything in the database
+
+** Todo **
+- Full edit all entries
+- Backup/Import characters (dumps json extracts and can be uploaded to any other server)
+- Manage game files and configurations (based on version)
