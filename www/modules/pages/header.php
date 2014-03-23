@@ -1,0 +1,1 @@
+<h1 class="logo"><?=SITE_NAME;?></h1>
