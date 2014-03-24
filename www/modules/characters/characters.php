@@ -46,7 +46,7 @@ if ($ID)
     ];
     
     // Get character object
-    $Character = (new Character($DB))->get($ID, $Options);
+    $Character = (new CharacterSearch($DB))->get($ID, $Options);
 
     // If character, include view based on action
     if ($Character)

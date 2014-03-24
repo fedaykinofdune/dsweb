@@ -1,6 +1,6 @@
 <?
 // Character class
-Class Character
+class CharacterSearch
 {
     private $DB;
 
@@ -119,7 +119,7 @@ Class Character
             if (!empty($Character['main']['id']))
             {
                 // Found, set, GO
-                return new CharacterObject($Character);
+                return new Character($Character);
             }
 
             // Found but was borked?!
@@ -166,7 +166,7 @@ Class Character
 }
 
 // Class object
-class CharacterObject
+class Character
 {
     private $Data;
 

@@ -69,13 +69,14 @@ var pages =
     {
         // Core site
         home            : 'modules/pages/home.php',
-        search          : 'modules/pages/search.php',
-        searchquery     : 'modules/search/search.php',
+        search          : 'modules/search/search.php',
+        searchquery     : 'modules/search/view.search.php',
 
         // Content related
         account         : 'modules/accounts/accounts.php',
         character       : 'modules/characters/characters.php',
         content         : 'modules/content/content.php',
+        ah              : 'modules/ah/ah.php',
     },
 
     go: function(page, data)
@@ -206,9 +207,9 @@ var search =
             type:   search.SearchTableSimplified[data[0]],
             action: 'edit',
         };
-
+        
         // Go to edit screen
-        window[dataobj.type].edit(dataobj);
+        window[dataobj.type].go(dataobj);
     }
 }
 

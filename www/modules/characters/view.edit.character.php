@@ -2,7 +2,7 @@
 .edit-label { color: #888; font-size: 11px; display: block; margin: 0 0 8px 0; }
 </style>
 <div class="page">
-    <h3>(<?=$Character->getID();?>) <?=$Character->getName();?></h3>
+    <h3><span style="color:#888;">Character &raquo;</span> (<?=$Character->getID();?>) <?=$Character->getName();?></h3>
     
     <h5>Account</h5>
     <table class="generic-table" border="0" cellpadding="10" cellspacing="0">

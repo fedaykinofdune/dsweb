@@ -31,6 +31,7 @@ $file_list =
     'php-core' =>
     [
         'modules/func/func.php',
+        'modules/func/times.php',
         'modules/pdo/pdo.php',
         'modules/init/init.php',
     ],
@@ -71,6 +72,7 @@ foreach($file_list['php-core'] as $f) { require_once __DIR__ .'/'. $f; }
 
 // Setup
 $Functions  = new Funcs();
+$Times      = new Times();
 $DB         = new Database();
 $Site       = new Init();
 
