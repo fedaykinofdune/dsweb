@@ -7,6 +7,7 @@ A web server management and web portal for the DarkStar Private FFXI servers.
 Just started, not much to it atm XD
 
 **Requirements**
+- A LAMP stack of sorts, or nginx
 - PHP 5.4
 
 **Screenshots**
@@ -28,3 +29,15 @@ Just started, not much to it atm XD
 - Buy/Sell to auction house
 - Send/Recieve items
 - Manage equipment
+
+
+Setup
+=====
+Very simple to get started:
+
+- Open ```config.php``` in a text editor
+- At the top, enter your dspdb details into ```$db_config``` replacing whats currently there
+- Upload to same server you have the game running (your public web folder)
+- Done
+
+Any issues or help, make a post on this git!
