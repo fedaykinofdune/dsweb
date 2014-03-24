@@ -4,7 +4,7 @@ dsweb
 A web server management and web portal for the DarkStar Private FFXI servers.
 
 **State**
-Just started, not usable right now.
+Just started, not much to it atm XD
 
 **Requirements**
 - PHP 5.4
