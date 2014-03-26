@@ -66,7 +66,7 @@ class AuctionHouse
 
             // Columns
             echo '<tr class="generic-table-header">
-                <td width="2%" style="color:#888;">#</td>
+                <td width="2%" align="center" style="color:#888;">#</td>
                 <td width="2%" align="center">Icon</td>
                 <td width="25%">Item</td>
                 <td width="2%" align="center">Stack</td>
@@ -89,7 +89,7 @@ class AuctionHouse
                 $Icon = 'http://static.ffxiah.com/images/icon/'. $item['item_id'] .'.png';
 
                 // Stack
-                $Stack = ($item['ah_stack'] == 0) ? '&#215;' : '&#8226;';
+                $Stack = ($item['ah_stack'] == 0) ? '&#215;' : '&#10003;';
 
                 // Listing time
                 $ListingTime = (new Times())->stringify($item['ah_date']);
@@ -118,10 +118,10 @@ class AuctionHouse
 
                 // Row
                 echo '<tr style="'. $css .'">
-                    <td align="center" style="color:#888;">'. $item['ah_id'] .'</td>
+                    <td align="center" style="color:#aaa;font-size:14px;">'. $item['ah_id'] .'</td>
                     <td><img src="'. $Icon .'" style="margin:-3px -3px -5px -3px;" /></td>
                     <td>'. $Name .'</td>
-                    <td align="center" class="generic-table-symbol">'. $Stack .'</td>
+                    <td align="center" class="generic-table-symbol" style="color:#aaa;">'. $Stack .'</td>
                     <td align="right">'. $ListingPrice .'</td>
                     <td>'. $ListingTime .'</td>
                     <td align="right">'. $SoldPrice .'</td>
